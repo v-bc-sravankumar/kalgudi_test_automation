@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="71.013"><testcase classname="Acceptance.tests.ui.store_settings.test_purchase_gift_certificate_ui" name="test_set_payment_method" time="67.7959480286"><failure message="test failure">browser = &lt;selenium.webdriver.firefox.webdriver.WebDriver object at 0x2767510&gt;, url = &apos;https://s1396851960.bcapp.dev&apos;, email = &apos;s1396851960@example.com&apos;, password = &apos;password1&apos;
+
+    def test_set_payment_method(browser, url, email, password):
+        payment = PaymentClass(browser)
+        payment.go_to_admin(browser, url, email, password)
+        payment.navigate_to_payment_setting()
+&gt;       payment.set_securepay_payments(browser)
+
+Acceptance/tests/ui/store_settings/test_purchase_gift_certificate_ui.py:31: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;selenium.webdriver.firefox.webdriver.WebDriver object at 0x2767510&gt;, browser = &lt;selenium.webdriver.firefox.webdriver.WebDriver object at 0x2767510&gt;
+
+    def set_securepay_payments(self, browser):
+        if not self.element_exists(&apos;SecurePay&apos;, browser, &apos;LINK&apos;):
+            if not self.element_exists(&apos;tab1&apos;, browser, &apos;ID&apos;):
+                element = self.wait_until_element_present(&apos;summary&apos;, &quot;TAGNAME&quot;)
+                element.click()
+            self.wait_until_element_present(&apos;icon-chevron-right&apos;, &quot;CLASS_NAME&quot;).click()
+&gt;           self.wait_until_element_present(&apos;ISSelectcheckoutproviders_checkout_securepay&apos;, &apos;ID&apos;).click()
+
+Acceptance/helpers/ui/control_panel/payment_class.py:142: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;selenium.webdriver.firefox.webdriver.WebDriver object at 0x2767510&gt;, element = &apos;ISSelectcheckoutproviders_checkout_securepay&apos;, searchby = &apos;ID&apos;
+browser = &lt;selenium.webdriver.firefox.webdriver.WebDriver object at 0x2767510&gt;, time = 20, first = True
+
+    def wait_until_element_present(self, element, searchby, browser=None, time = 20, first = True):
+        try:
+            if not browser:
+                browser=self.browser
+            if searchby == &quot;ID&quot;:
+&gt;               WebDriverWait(browser, time).until(lambda s: self.find_element_by_id(element).is_displayed() and self.find_element_by_id(element))
+
+Acceptance/lib/ui_lib.py:190: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait object at 0x2767590&gt;, method = &lt;function &lt;lambda&gt; at 0x278ade8&gt;, message = &apos;&apos;
+
+    def until(self, method, message=&apos;&apos;):
+        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \
+            return value is not False.&quot;&quot;&quot;
+        end_time = time.time() + self._timeout
+        while(True):
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions:
+                pass
+            time.sleep(self._poll)
+            if(time.time() &gt; end_time):
+                break
+&gt;       raise TimeoutException(message)
+E       TimeoutException: Message: &apos;&apos;
+
+../env/local/lib/python2.7/site-packages/selenium/webdriver/support/wait.py:71: TimeoutException</failure></testcase></testsuite>
