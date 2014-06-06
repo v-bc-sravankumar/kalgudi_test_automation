@@ -1,0 +1,157 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2014-05-05T09:21:28.622Z] GhostDriver - Main - running on port 41863
+[INFO  - 2014-05-05T09:21:29.546Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-05-05T09:21:29.547Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - page.customHeaders:  - {}
+[INFO  - 2014-05-05T09:21:29.547Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - CONSTRUCTOR - Desired Capabilities: {"javascriptEnabled":true}
+[INFO  - 2014-05-05T09:21:29.547Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-05-05T09:21:29.547Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a3f63130-d436-11e3-b4e5-17b306c2a78e
+[ERROR - 2014-05-05T09:21:39.895Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281699840
+[ERROR - 2014-05-05T09:21:45.312Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281705302
+[ERROR - 2014-05-05T09:21:50.773Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281710738
+[ERROR - 2014-05-05T09:21:56.169Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281716161
+[ERROR - 2014-05-05T09:22:05.650Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Home?cid=385056' - Console Error (msg): ReferenceError: Can't find variable: context
+[ERROR - 2014-05-05T09:22:05.650Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Home?cid=385056' - Console Error (stack): [
+  {
+    "file": "https://sandbox.masterpass.com/Checkout/themes/root/js/skap.js",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-05T09:22:13.549Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281733525
+[ERROR - 2014-05-05T09:22:18.811Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281738790
+[ERROR - 2014-05-05T09:22:24.078Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281744039
+[ERROR - 2014-05-05T09:22:29.358Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281749339
+[ERROR - 2014-05-05T09:22:34.635Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281754581
+[ERROR - 2014-05-05T09:22:39.871Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281759858
+[ERROR - 2014-05-05T09:22:45.187Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281765174
+[ERROR - 2014-05-05T09:22:50.467Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281770422
+[ERROR - 2014-05-05T09:22:55.733Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281775701
+[ERROR - 2014-05-05T09:23:01.002Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281780995
+[ERROR - 2014-05-05T09:23:06.297Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281786238
+[ERROR - 2014-05-05T09:23:11.566Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281791528
+[ERROR - 2014-05-05T09:23:16.846Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Home?cid=385056' - Console Error (msg): ReferenceError: Can't find variable: context
+[ERROR - 2014-05-05T09:23:16.846Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Home?cid=385056' - Console Error (stack): [
+  {
+    "file": "https://sandbox.masterpass.com/Checkout/themes/root/js/skap.js",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-05T09:23:28.890Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281808873
+[ERROR - 2014-05-05T09:23:34.141Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281814122
+[ERROR - 2014-05-05T09:23:39.417Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281819375
+[ERROR - 2014-05-05T09:23:44.684Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281824672
+[ERROR - 2014-05-05T09:23:49.912Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281829909
+[ERROR - 2014-05-05T09:23:55.195Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281835135
+[ERROR - 2014-05-05T09:24:15.496Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281855454
+[ERROR - 2014-05-05T09:24:20.783Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281860720
+[ERROR - 2014-05-05T09:24:26.057Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281866034
+[ERROR - 2014-05-05T09:24:31.326Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281871285
+[ERROR - 2014-05-05T09:24:34.999Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Home?cid=385056' - Console Error (msg): ReferenceError: Can't find variable: context
+[ERROR - 2014-05-05T09:24:34.999Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Home?cid=385056' - Console Error (stack): [
+  {
+    "file": "https://sandbox.masterpass.com/Checkout/themes/root/js/skap.js",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-05T09:24:49.676Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281889648
+[ERROR - 2014-05-05T09:24:54.921Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281894887
+[ERROR - 2014-05-05T09:25:00.175Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281900125
+[ERROR - 2014-05-05T09:25:05.479Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281905418
+[ERROR - 2014-05-05T09:25:10.721Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281910683
+[ERROR - 2014-05-05T09:25:15.991Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281915932
+[ERROR - 2014-05-05T09:25:18.391Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Login?cid=385056' - Console Error (msg): ReferenceError: Can't find variable: context
+[ERROR - 2014-05-05T09:25:18.391Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Login?cid=385056' - Console Error (stack): [
+  {
+    "file": "https://sandbox.masterpass.com/Checkout/themes/root/js/skap.js",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-05T09:25:25.580Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281924918
+[ERROR - 2014-05-05T09:25:29.113Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Challenge?cid=385056' - Console Error (msg): ReferenceError: Can't find variable: context
+[ERROR - 2014-05-05T09:25:29.114Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Challenge?cid=385056' - Console Error (stack): [
+  {
+    "file": "https://sandbox.masterpass.com/Checkout/themes/root/js/skap.js",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-05T09:25:30.831Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281930795
+[ERROR - 2014-05-05T09:25:36.055Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281936033
+[ERROR - 2014-05-05T09:25:41.298Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281941287
+[ERROR - 2014-05-05T09:25:46.519Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281946500
+[ERROR - 2014-05-05T09:25:51.763Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281951718
+[ERROR - 2014-05-05T09:25:57.103Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281957102
+[ERROR - 2014-05-05T09:26:02.311Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281962304
+[ERROR - 2014-05-05T09:26:03.740Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Summary?cid=385056' - Console Error (msg): ReferenceError: Can't find variable: context
+[ERROR - 2014-05-05T09:26:03.740Z] Session [a3f63130-d436-11e3-b4e5-17b306c2a78e] - Page at 'https://sandbox.masterpass.com/Checkout/Summary?cid=385056' - Console Error (stack): [
+  {
+    "file": "https://sandbox.masterpass.com/Checkout/themes/root/js/skap.js",
+    "line": 2,
+    "function": ""
+  }
+]
+[ERROR - 2014-05-05T09:26:07.543Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281967492
+[ERROR - 2014-05-05T09:26:12.823Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281972800
+[ERROR - 2014-05-05T09:26:18.067Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281978042
+[ERROR - 2014-05-05T09:26:23.336Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281983293
+[INFO  - 2014-05-05T09:26:28.622Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2014-05-05T09:26:37.582Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399281997521
+[ERROR - 2014-05-05T09:26:42.822Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282002811
+[ERROR - 2014-05-05T09:26:48.091Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282008051
+[ERROR - 2014-05-05T09:26:53.385Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282013345
+[ERROR - 2014-05-05T09:26:58.642Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282018618
+[ERROR - 2014-05-05T09:27:03.908Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282023874
+[ERROR - 2014-05-05T09:27:09.173Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282029151
+[ERROR - 2014-05-05T09:27:14.429Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282034393
+[ERROR - 2014-05-05T09:27:19.699Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282039672
+[ERROR - 2014-05-05T09:27:25.000Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282044955
+[ERROR - 2014-05-05T09:27:30.270Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282050227
+[ERROR - 2014-05-05T09:27:35.514Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282055512
+[ERROR - 2014-05-05T09:27:40.829Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282060788
+[ERROR - 2014-05-05T09:27:46.099Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282066054
+[ERROR - 2014-05-05T09:27:51.369Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282071333
+[ERROR - 2014-05-05T09:27:56.647Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282076619
+[ERROR - 2014-05-05T09:28:01.892Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282081878
+[ERROR - 2014-05-05T09:28:07.149Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282087120
+[ERROR - 2014-05-05T09:28:16.399Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282096384
+[ERROR - 2014-05-05T09:28:21.646Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282101628
+[ERROR - 2014-05-05T09:28:26.911Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282106867
+[ERROR - 2014-05-05T09:28:32.190Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282112161
+[ERROR - 2014-05-05T09:28:37.461Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282117414
+[ERROR - 2014-05-05T09:28:42.725Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282122683
+[ERROR - 2014-05-05T09:28:48.055Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282128017
+[ERROR - 2014-05-05T09:28:53.323Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282133280
+[ERROR - 2014-05-05T09:28:58.566Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282138553
+[ERROR - 2014-05-05T09:29:03.850Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282143815
+[ERROR - 2014-05-05T09:29:09.092Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282149072
+[ERROR - 2014-05-05T09:29:14.322Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282154315
+[ERROR - 2014-05-05T09:29:20.673Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282160646
+[ERROR - 2014-05-05T09:29:25.951Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282165896
+[ERROR - 2014-05-05T09:29:31.229Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282171174
+[ERROR - 2014-05-05T09:29:36.545Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282176485
+[ERROR - 2014-05-05T09:29:41.791Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282181782
+[ERROR - 2014-05-05T09:29:47.057Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282187017
+[ERROR - 2014-05-05T09:29:54.197Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282194173
+[ERROR - 2014-05-05T09:29:59.394Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282199391
+[ERROR - 2014-05-05T09:30:04.674Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282204615
+[ERROR - 2014-05-05T09:30:09.908Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282209868
+[ERROR - 2014-05-05T09:30:16.887Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282216826
+[ERROR - 2014-05-05T09:30:22.250Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282222184
+[ERROR - 2014-05-05T09:30:27.592Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282227551
+[ERROR - 2014-05-05T09:30:32.958Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282232919
+[ERROR - 2014-05-05T09:30:38.278Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282238253
+[ERROR - 2014-05-05T09:30:43.625Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282243565
+[ERROR - 2014-05-05T09:30:56.694Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282256688
+[ERROR - 2014-05-05T09:31:01.918Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282261892
+[ERROR - 2014-05-05T09:31:07.113Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282267110
+[ERROR - 2014-05-05T09:31:12.333Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282272306
+[ERROR - 2014-05-05T09:31:17.535Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282277524
+[ERROR - 2014-05-05T09:31:22.784Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282282727
+[ERROR - 2014-05-05T09:31:27.988Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282287976
+[INFO  - 2014-05-05T09:31:28.637Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2014-05-05T09:31:33.194Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282293178
+[ERROR - 2014-05-05T09:31:38.443Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282298387
+[ERROR - 2014-05-05T09:31:44.352Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1399282304333

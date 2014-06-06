@@ -6,3 +6,5 @@ def test_login(browser, url, username, password):
 	browser.find_element_by_id('username').send_keys(username)
 	browser.find_element_by_id('password1').send_keys(password)
 	browser.find_element_by_id('login').click()
+
+
